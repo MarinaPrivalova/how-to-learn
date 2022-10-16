@@ -109,7 +109,7 @@
 .two-columns__main-text {
   flex-wrap: wrap;
   width: 80%;
-  min-width: 784px
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
