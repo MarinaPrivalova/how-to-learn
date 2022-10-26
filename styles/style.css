@@ -60,7 +60,7 @@
   transition: opacity .4s;
 }
 
-.header__link:hover {
+.link:hover {
   opacity: .5;
   transition: opacity .4s;
 }
@@ -240,11 +240,6 @@
   font-weight: normal;
   line-height: 51px;
   transition: opacity .4s;
-}
-
-.feynman__link:hover {
-    opacity: .5;
-    transition: opacity .4s;
 }
 
 .kaufman {
@@ -487,13 +482,14 @@
 .khan__book-container {
   margin-top: 68px;
   display: flex;
-  justify-content: start;
+  position: relative;
 }
 
 .khan__book-pic {
   width: 620px;
   height: 608px;
   object-fit: cover;
+  object-position: top;
   margin-right: 48px;
 }
 
@@ -503,12 +499,11 @@
   line-height: 42px;
   color:  #2f80ed;
   text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 668px;
   transition: opacity .4s;
-}
 
-.khan__buy-link:hover {
-  opacity: .5;
-  transition: opacity .4s;
 }
 
 .resources
