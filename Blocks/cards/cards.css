@@ -1,0 +1,9 @@
+.cards {
+  display: grid;
+  list-style-type: none;
+  width: 920px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
