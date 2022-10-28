@@ -6,6 +6,4 @@
   justify-content: right;
   top:64px;
   right:0;
-  animation: rotation 20s linear infinite;
-  animation-direction: reverse;
 }

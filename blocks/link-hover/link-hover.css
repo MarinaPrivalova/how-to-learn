@@ -1,0 +1,6 @@
+.link-hover:hover {
+  animation-name: link-hover;
+  opacity: 0.5;
+  transition: 0.4s;
+  animation-timing-function: ease;
+}
